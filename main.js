@@ -192,8 +192,6 @@ function loop(){
 	drawWorld(w, rot, asc, dist, 3);
 
 	keyReg.keyTick();
-
-	alert("Tick");
 	
 	requestAnimationFrame(loop);
 }
