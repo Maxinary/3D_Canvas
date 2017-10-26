@@ -193,6 +193,8 @@ function loop(){
 
 	keyReg.keyTick();
 
+	alert("Tick");
+	
 	requestAnimationFrame(loop);
 }
 
